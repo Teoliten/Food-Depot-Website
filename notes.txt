@@ -12,7 +12,7 @@ DONE
 - [x]  Better short info and button for restaurant, Facebook link
 - [x]  Add Favicon
 
-Final
+Final-Todo
 - [ ]  Add Final pictures and tags for **Gallery**
 - [ ]  Add Final pictures and tags for **Catering**
 - [ ]  4 pictures of custom Cakes, for **Contact**
