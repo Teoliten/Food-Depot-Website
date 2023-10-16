@@ -1,0 +1,35 @@
+DONE
+- [x]  Whole page for each restaurant
+- [x]  Restaurant page, add facebook logo
+- [x]  move food and catering swap
+- [x]  Update all TITLES
+- [x]  Fix all .html names
+
+- [x]  Info about sell custom cakes
+- [x]  Pictures of all catering, with sorting menu like REDCORAL https://redcoral-catering.com/shop/
+- [x]  change templatemo-styles.css name
+
+- [x]  Better short info and button for restaurant, Facebook link
+- [x]  Add Favicon
+
+Final
+- [ ]  Add Final pictures and tags for **Gallery**
+- [ ]  Add Final pictures and tags for **Catering**
+- [ ]  4 pictures of custom Cakes, for **Contact**
+- [ ]  Check ALL phone-numbers, addresses, emails and links. Correct Info
+- [ ]  Rewrite all **PLACEHOLDER text**, all pages, lorem ipsum
+- [ ]  Update 5 pictures in **Home Page**
+- [ ]  Map on Contact? remove? What location?
+- [ ]  add ALT to all images for google to recommend
+- [ ]  Put all “styles” into css. maybe
+- [ ]  Put html in folders. when theres many, fooddepot1 fooddepot2 etc…
+- [ ]  Make sections fade in with scroll?
+- [ ]  Better looking checkboxes
+- [ ]  Button for MENU for **Restaurants**
+
+- [ ]  Add language swap
+
+BUGS
+- [x]  Toggle bar no work on restaurant page
+- [x]  find restaurants near, not animated on food page
+- [x]  make header min width so that its less snappy when loading top logo
