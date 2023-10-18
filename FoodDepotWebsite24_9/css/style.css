@@ -521,6 +521,8 @@ section#book-table {
 
 section#book-table .left-image img {
 	width: 100%;
+	height: 282.16px;
+	object-fit: cover;
 	overflow: hidden;
 }
 

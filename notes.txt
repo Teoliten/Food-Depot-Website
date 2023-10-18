@@ -26,6 +26,7 @@ Final-Todo
 - [ ]  Make sections fade in with scroll?
 - [ ]  Better looking checkboxes
 - [ ]  Button for MENU for **Restaurants**
+- [ ]  Remove un-used images to reduce website size
 
 - [ ]  Add language swap
 
