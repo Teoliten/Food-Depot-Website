@@ -889,6 +889,19 @@ section.our-restaurants {
 	padding: 100px 0px 70px 0px;
 }
 
+.faceBookLinkButton{
+	border-style: none;
+  	background-color: #ffac30;
+  	color: #ffffff;
+  	font-size: 19px;
+  	text-transform: uppercase;
+  	font-weight: 500;
+  	padding: 10px 90px;
+  	border-radius: 3px;
+  	text-decoration: none;
+  	letter-spacing: 0.5px;
+}
+
 .daily_menu_p{
 	display: inline-block; 
 	margin: 0; 
