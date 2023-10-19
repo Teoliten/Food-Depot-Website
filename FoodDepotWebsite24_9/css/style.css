@@ -18,7 +18,7 @@ ul {
 
 p {
 	color: #9a9a9a;
-	font-size: 13px;
+	font-size: 16px;
 	line-height: 24px;
 }
 
@@ -502,7 +502,7 @@ section.services {
 
 section#book-table {
 	padding: 80px 0px;
-	background-image: url(../img/book-bg.jpg);
+	background-image: url(../img/banner-bg.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -872,11 +872,9 @@ section.our-catering{
 }
 
 .catering-item h4{
-	margin-top: 0px;
-	margin-bottom: 0px;
-	margin-left: 10px;
-	margin-top: 10px;
-	padding-bottom: 8px;
+	justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+
 	text-transform: uppercase;
 	font-family: 'Spectral', serif;
 	font-size: 18px;
@@ -1554,7 +1552,6 @@ section.map #map {
 	}
 	.page-heading p {
 		padding: 0px 5%;
-
 	}
 }
 
