@@ -887,6 +887,45 @@ section.our-restaurants {
 	padding: 100px 0px 70px 0px;
 }
 
+/* .introButton p {
+	display: inline-block;
+	color: white;
+	font-size: 35px;
+	text-transform: uppercase;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	width: 300px;
+	text-align: left;
+}
+
+.introButton a {
+	display: inline-block;
+	background-color: #ffac30;
+	height: 100px;
+	padding-top: 35px;
+	padding-bottom: 35px;
+	padding-left: 200px;
+	padding-right: 200px;
+	border-radius: 50px;
+	margin-left: -110px!important;
+	text-decoration: none;
+	margin: 80px 0px;
+	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+  }
+  
+  .introButton a:hover {
+	background-color: #ffbf5f;
+	color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .introButton a:active {
+	background-color: #e59300;
+	box-shadow: none;
+  } */
+
 .faceBookLinkButton{
 	border-style: none;
   	background-color: #ffac30;
@@ -898,6 +937,14 @@ section.our-restaurants {
   	border-radius: 3px;
   	text-decoration: none;
   	letter-spacing: 0.5px;
+	transition: all 0.3s;
+}
+
+.faceBookLinkButton:hover{
+	background-color: #ffbb56;
+	text-decoration: none;
+	color: #fff;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .daily_menu_p{
