@@ -84,7 +84,7 @@ p {
 	display: inline-block;
 	width: 150px;
 	padding-top: 0px;
-	margin-left: -250px;
+	margin-left: -190px;
 	cursor: pointer;
 	transition: all 0.3s;
 	pointer-events: none;
@@ -815,7 +815,7 @@ section.our-catering{
 }
 
 .checkBoxCategory{
-	width: 110px;
+	width: 130px;
 }
 
 .checkBoxCategory label{
@@ -950,10 +950,12 @@ section.our-restaurants {
 .daily_menu_p{
 	display: inline-block; 
 	margin: 0; 
+	text-transform: uppercase;
+	font-weight: bold;
 	background-color: #ffac30; 
-	border-radius: 2px; 
+	border-radius: 50px; 
 	color: white; 
-	padding: 10px 20px;
+	padding: 10px 55px;
 	transition: all 0.2s;
 }
 
@@ -963,14 +965,14 @@ section.our-restaurants {
 
 .restaurants-post img {
 	width: 50%;
-	height: 210px;
+	height: 219.7px;
 	overflow: hidden;
 	position: relative;
 	object-fit: cover;
 }
 
 .restaurants-post:hover {
-  transform: scale(1.05);
+  transform: scale(1.025);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
