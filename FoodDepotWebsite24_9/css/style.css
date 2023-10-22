@@ -246,19 +246,30 @@ p {
 
 .languageSwitch{
 	color: white;
+	font-size: 17px;
+	background-color: #ffac30;
+	border-radius: 2px;
+	display: flex;
+	padding-left: 15px;
+  align-items: center;
+	margin-top: 5px;
+	width: 55px;
+	height: 35px;
+	transition: all 0.3s;
 }
 
 .languageSwitch:hover{
 	color: white;
+	background-color: #ffbe5b;
 	text-decoration: none;
 }
 
 #main-nav {
 	padding: 15px 0px;
 	float: right;
-    position:relative;
-    left:-50%;
-    text-align: left;
+  position:relative;
+  left: -50%;
+  text-align: left;
 }
 
 .nav {
@@ -1593,20 +1604,20 @@ section.map #map {
 	    border-radius: 4px;
 	}
     #main-nav {
-		padding: 0px 0px;
-		float: none;
-	    position: relative;
-	    left: 0%;
-	    text-align: center;
-	    overflow: hidden;
-	    margin: 0px -15px;
-	    border-top: none;
+			padding: 0px 0px;
+			float: none;
+			position: relative;
+			left: 28%;
+			text-align: center;
+			overflow: hidden;
+			margin: 0px -15px;
+			border-top: none;
 	}
 	.nav {
 		list-style:none;
-	    position:relative;
-	    left: 0%;
-	    overflow: hidden;
+	  position:relative;
+	  left: 0%;
+	  overflow: hidden;
 	}
 	.navbar-nav li {
 		padding: 15px 0px;
