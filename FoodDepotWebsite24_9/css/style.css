@@ -141,18 +141,18 @@ p {
 	text-decoration: none;
 	margin: 80px 0px;
 	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-  }
+}
   
-  .introButton a:hover {
+.introButton a:hover {
 	background-color: #ffbf5f;
 	color: #fff;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+}
   
-  .introButton a:active {
+.introButton a:active {
 	background-color: #e59300;
 	box-shadow: none;
-  }
+}
 
 .primary-white-button-catering a {
 	display: inline-block;
@@ -168,15 +168,15 @@ p {
 	letter-spacing: 1px;
 	border-radius: 25px;
 	transition:all 0.3s;
-  }
+}
   
-  .primary-white-button-catering a:hover {
+.primary-white-button-catering a:hover {
 	background-color: #ffac30;
 	color: #fff;
 	letter-spacing: 2px;
 	padding: 12px 44px;
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
+}
 
 .primary-orange-button a {
   display: inline-block;
@@ -244,6 +244,15 @@ p {
 	height: auto!important;
 }
 
+.languageSwitch{
+	color: white;
+}
+
+.languageSwitch:hover{
+	color: white;
+	text-decoration: none;
+}
+
 #main-nav {
 	padding: 15px 0px;
 	float: right;
@@ -260,6 +269,8 @@ p {
 
 .navbar-nav li {
 	margin: 0px 20px;
+	width: 165px; /* Set a fixed width for the list items */
+	text-align: center; /* Center the text horizontally */
 }
 
 .navbar-nav li a {
@@ -873,7 +884,7 @@ section.our-catering{
 
 .catering-item h4{
 	justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
+  	align-items: center; /* Vertical centering */
 
 	text-transform: uppercase;
 	font-family: 'Spectral', serif;
@@ -887,52 +898,14 @@ section.our-restaurants {
 	padding: 100px 0px 70px 0px;
 }
 
-/* .introButton p {
-	display: inline-block;
-	color: white;
-	font-size: 35px;
-	text-transform: uppercase;
-	font-weight: 700;
-	letter-spacing: 2px;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	width: 300px;
-	text-align: left;
-}
-
-.introButton a {
-	display: inline-block;
-	background-color: #ffac30;
-	height: 100px;
-	padding-top: 35px;
-	padding-bottom: 35px;
-	padding-left: 200px;
-	padding-right: 200px;
-	border-radius: 50px;
-	margin-left: -110px!important;
-	text-decoration: none;
-	margin: 80px 0px;
-	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
-  }
-  
-  .introButton a:hover {
-	background-color: #ffbf5f;
-	color: #fff;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  }
-  
-  .introButton a:active {
-	background-color: #e59300;
-	box-shadow: none;
-  } */
-
 .faceBookLinkButton{
 	border-style: none;
   	background-color: #ffac30;
   	color: #ffffff;
-  	font-size: 19px;
+  	font-size: 24px;
   	text-transform: uppercase;
   	font-weight: 500;
+	margin-top: 17px;
   	padding: 10px 90px;
   	border-radius: 3px;
   	text-decoration: none;
@@ -955,12 +928,15 @@ section.our-restaurants {
 	background-color: #ffac30; 
 	border-radius: 50px; 
 	color: white; 
-	padding: 10px 55px;
+	margin-left: 20px;
+	padding: 10px 0px;
+	width: 85%;
 	transition: all 0.2s;
 }
 
 .daily_menu_p:hover{
 	background-color: #ffbd5b;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .restaurants-post img {
@@ -969,6 +945,7 @@ section.our-restaurants {
 	overflow: hidden;
 	position: relative;
 	object-fit: cover;
+	cursor: pointer;
 }
 
 .restaurants-post:hover {
@@ -986,14 +963,12 @@ section.our-restaurants {
 	margin-bottom: 30px;
 	display: inline-block;
 	transition: transform 0.3s, box-shadow 0.3s;
-	cursor: pointer;
 }
 
 .restaurants-post .right-content {
 	background-color: #ebebeb;
 	width: 50%;
 	float: right;
-	padding: 20px;
 }
 
 .restaurants-post .right-content h4 {
