@@ -154,6 +154,18 @@ p {
 	box-shadow: none;
 }
 
+@media (max-width: 768px) {
+    .introButton p {
+		font-size: 30px;
+		text-align: left;
+	}
+
+
+	.facebookLogo {
+        display: none; /* Hide Facebook logo on smaller screens */
+    }
+}
+
 .primary-white-button-catering a {
 	display: inline-block;
 	background-color: #f1f1f1;
