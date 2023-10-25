@@ -4,31 +4,26 @@ DONE
 - [x]  move food and catering swap
 - [x]  Update all TITLES
 - [x]  Fix all .html names
-
 - [x]  Info about sell custom cakes
-- [x]  Pictures of all catering, with sorting menu like REDCORAL https://redcoral-catering.com/shop/
 - [x]  change templatemo-styles.css name
-
 - [x]  Better short info and button for restaurant, Facebook link
 - [x]  Add Favicon
 
 Final-Todo
-- [ ]  Add Final pictures and tags for **Gallery**
-- [ ]  Add Final pictures and tags for **Catering**
-- [ ]  4 pictures of custom Cakes, for **Contact**
-- [ ]  Check ALL phone-numbers, addresses, emails and links. Correct Info
-- [ ]  Rewrite all **PLACEHOLDER text**, all pages, lorem ipsum
-- [ ]  Update 5 pictures in **Home Page**
-- [ ]  Map on Contact? remove? What location?
+- [x]  Add Final pictures and tags for **Gallery**
+- [x]  Add Final pictures and tags for **Catering**
+- [x]  4 pictures of custom Cakes, for **Contact**
+- [x]  Check ALL phone-numbers, addresses, emails and links. Correct Info
+- [x]  Rewrite all **PLACEHOLDER text**, all pages, lorem ipsum
+- [x]  Update 5 pictures in **Home Page**
+- [x]  Map on Contact? remove? What location?
 - [ ]  add ALT to all images for google to recommend
 - [ ]  Put all “styles” into css. maybe
-- [ ]  Put html in folders. when theres many, fooddepot1 fooddepot2 etc…
 - [ ]  Make sections fade in with scroll?
 - [ ]  Better looking checkboxes
-- [ ]  Button for MENU for **Restaurants**
-- [ ]  Remove un-used images to reduce website size
-
-- [ ]  Add language swap
+- [x]  Button for MENU for **Restaurants**
+- [x]  Remove un-used images to reduce website size
+- [x]  Add language swap
 
 BUGS
 - [x]  Toggle bar no work on restaurant page
