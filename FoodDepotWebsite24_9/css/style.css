@@ -97,7 +97,10 @@ p {
   font-size: 17px;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 10px 22px;
+  /* padding: 10px 22px; */
+  padding: 10px 0px;
+  width: 100%;
+  max-width: 200px;
   border-radius: 5px;
   text-decoration: none;
   letter-spacing: 0.5px;
@@ -124,9 +127,19 @@ p {
 	letter-spacing: 2px;
 	margin-top: 0px;
 	margin-bottom: 0px;
-	width: 300px;
+	width: 100%;
 	text-align: left;
+	/* overflow: hidden; */
+	/* min-width: 250px; */
 }
+
+@media (max-width: 600px) {
+	.introButton p {
+
+	  font-size: 20px!important; /* Adjust the font size for smaller screens */
+	  
+	}
+  }
 
 .introButton a {
 	display: inline-block;
@@ -134,13 +147,14 @@ p {
 	height: 100px;
 	padding-top: 35px;
 	padding-bottom: 35px;
-	padding-left: 200px;
-	padding-right: 200px;
+	padding-left: 20%;
+	padding-right: 20%;
 	border-radius: 50px;
-	margin-left: -110px!important;
+	/* margin-left: -110px!important; */
 	text-decoration: none;
 	margin: 80px 0px;
 	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+	
 }
   
 .introButton a:hover {
@@ -154,7 +168,7 @@ p {
 	box-shadow: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 991px) {
     .introButton p {
 		font-size: 30px;
 		text-align: left;
@@ -197,7 +211,9 @@ p {
   font-size: 13px;
   text-transform: uppercase;
   font-weight: 500;
-  padding: 12px 120px;
+  /* padding: 12px 120px; */
+  padding-top: 12px;
+  padding-bottom: 12px;
   border-radius: 3px;
   text-decoration: none;
   letter-spacing: 0.5px;
@@ -263,8 +279,9 @@ p {
 	border-radius: 2px;
 	display: flex;
 	padding-left: 15px;
-  align-items: center;
-	margin-top: 5px;
+  	align-items: center;
+	/* margin-top: 5px!important; */
+	margin: 5px auto;
 	width: 55px;
 	height: 35px;
 	transition: all 0.3s;
@@ -279,9 +296,9 @@ p {
 #main-nav {
 	padding: 15px 0px;
 	float: right;
-  position:relative;
-  left: -50%;
-  text-align: left;
+  	position:relative;
+  	left: -50%;
+  	text-align: left;
 }
 
 .nav {
@@ -313,7 +330,7 @@ p {
 .navbar-inverse {
 	background-image: none;
 	background-color: transparent;
-
+	align-items: center;
 }
 .header .navbar {
     margin: 0;
@@ -1616,14 +1633,14 @@ section.map #map {
 	    border-radius: 4px;
 	}
     #main-nav {
-			padding: 0px 0px;
-			float: none;
-			position: relative;
-			left: 28%;
-			text-align: center;
-			overflow: hidden;
-			margin: 0px -15px;
-			border-top: none;
+		padding: 0px 0px;
+		float: none;
+		position: relative;
+		left: 0%;
+		text-align: center;
+		overflow: hidden;
+		margin: 0px -15px;
+		border-top: none;
 	}
 	.nav {
 		list-style:none;
@@ -1631,6 +1648,12 @@ section.map #map {
 	  left: 0%;
 	  overflow: hidden;
 	}
+	.navbar-nav{
+		width: 205px;
+		margin: 0 auto!important;
+		text-align: center; /* Center the child elements horizontally */
+	}
+
 	.navbar-nav li {
 		padding: 15px 0px;
 	}
