@@ -873,7 +873,7 @@ section.our-catering{
 	color: #242424;
 	font-size: 16px!important;
 	font-weight: 300;
-	margin-left: 5px;
+	/* margin-left: 5px; */
 }
 
 .catering-item{
@@ -991,6 +991,7 @@ section.our-restaurants {
 .restaurants-post:hover {
   transform: scale(1.025);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #f3f3f3;
 }
 
 .restaurants-post:active {
@@ -1002,11 +1003,11 @@ section.our-restaurants {
 	background-color: #ebebeb;
 	margin-bottom: 30px;
 	display: inline-block;
-	transition: transform 0.3s, box-shadow 0.3s;
+	transition: all 0.3s;
 }
 
 .restaurants-post .right-content {
-	background-color: #ebebeb;
+	/* background-color: #ebebeb; */
 	width: 50%;
 	float: right;
 }
